@@ -16,9 +16,9 @@ apt-get install libssh2-1-dev libssh2-php
 php -m |grep ssh2
 service apache2 restart
 cd /var/www/html
-wget https://www.dropbox.com/s/6pto6ynbv79qa8d/painelssh.zip?dl=0
+wget https://www.hostgrid.com.br/downloads/painelssh.zip
 apt-get install unzip
-unzip painelssh.zip?dl=0
-rm painelssh.zip?dl=0
+unzip painelssh.zip
+rm painelssh.zip
 clear
 echo -e "\033[1;31mCOMPLETADO COM SUCESSO.\033[0m"
